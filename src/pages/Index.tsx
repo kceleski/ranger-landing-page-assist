@@ -319,7 +319,7 @@ const Index = () => {
             </div>
             <div>
               <h4 className="text-xl font-bold mb-6 text-white">Emergency Resources</h4>
-              <div className="space-y-3 text-gray-400 text-lg">
+              <div className="space-y-5 text-gray-400 text-lg">
                 <p className="hover:text-white transition-colors">Veterans Crisis Line: 1-800-273-8255</p>
                 <p className="hover:text-white transition-colors">Crisis Text Line: Text 838255</p>
                 <p className="hover:text-white transition-colors">Emergency: 911</p>
