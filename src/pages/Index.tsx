@@ -297,7 +297,7 @@ const Index = () => {
           </p>
           <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white px-12 py-6 text-xl font-bold rounded-xl shadow-2xl hover:shadow-red-500/25 transition-all duration-300 group">
             <MessageCircle className="mr-3 h-6 w-6 group-hover:scale-110 transition-transform" />
-            Talk to Ranger Now
+            Click the Avatar in the Bottom Right Corner to Chat with Ranger Now!
             <ChevronRight className="ml-3 h-6 w-6 group-hover:translate-x-1 transition-transform" />
           </Button>
         </div>
