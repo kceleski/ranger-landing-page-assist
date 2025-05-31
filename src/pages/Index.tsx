@@ -66,16 +66,7 @@ const Index = () => {
                   housing assistance, and everything in between—with the respect and understanding you've earned.
                 </p>
               </div>
-              
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 text-lg font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 group">
-                  <MessageCircle className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
-                  Talk to Ranger Now
                   <ChevronRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-                </Button>
-                <Button variant="outline" size="lg" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-4 text-lg font-semibold rounded-lg transition-all duration-300">
-                  Learn More
-                </Button>
               </div>
             </div>
 
