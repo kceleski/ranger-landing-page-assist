@@ -57,16 +57,16 @@ const Index = () => {
           }}
         />
         
-        <div className="relative z-10 max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 pt-16 sm:pt-20">
+        <div className="relative z-10 max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 pt-16 sm:pt-20 pb-8">
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
             {/* Left Content */}
             <div className="text-white space-y-6 sm:space-y-8 text-center lg:text-left">
               <div className="space-y-3 sm:space-y-4">
-                <div className="flex items-center justify-center lg:justify-start space-x-3 mb-4 sm:mb-6">
+                <div className="flex items-center justify-center lg:justify-start space-x-3 mb-4 sm:mb-6 py-2">
                   <div className="p-2 bg-red-600 rounded-lg">
                     <Shield className="h-6 w-6 sm:h-8 sm:w-8 text-white" />
                   </div>
-                  <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent">
+                  <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent leading-tight pb-2">
                     Ranger
                   </h1>
                 </div>
