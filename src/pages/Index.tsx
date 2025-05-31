@@ -1,4 +1,3 @@
-
 import { Shield, Users, Heart, Phone, MessageCircle, CheckCircle, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -36,6 +35,18 @@ const Index = () => {
 
       {/* Hero Section with Parallax */}
       <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 overflow-hidden">
+        {/* Parallax Background Flag */}
+        <div 
+          className="absolute inset-0 opacity-5"
+          style={{ transform: `translateY(${scrollY * 0.3}px)` }}
+        >
+          <img 
+            src="/placeholder/tattered-flag.svg" 
+            alt="American Flag Background" 
+            className="w-full h-full object-cover"
+          />
+        </div>
+        
         {/* Parallax Background Elements */}
         <div 
           className="absolute inset-0 opacity-10"
@@ -59,8 +70,6 @@ const Index = () => {
                     Ranger
                   </h1>
                 </div>
-                </p>
-                </p>
                 <p className="text-lg sm:text-xl lg:text-2xl font-semibold text-blue-100">
                   Your AI-powered advocate for veteran services
                 </p>
@@ -77,18 +86,18 @@ const Index = () => {
               </Button>
             </div>
 
-            {/* Right Content - Ranger Avatar */}
+            {/* Right Content - Tattered Flag */}
             <div className="flex justify-center lg:justify-end mt-8 lg:mt-0">
               <div 
                 className="relative"
                 style={{ transform: `translateY(${scrollY * -0.1}px)` }}
               >
-                <div className="absolute inset-0 bg-gradient-to-r from-red-400 via-blue-400 to-red-400 rounded-full blur-3xl opacity-30 scale-150"></div>
-                <div className="relative bg-white/10 backdrop-blur-sm rounded-full p-3 sm:p-4 border border-white/20">
+                <div className="absolute inset-0 bg-gradient-to-r from-red-400 via-blue-400 to-red-400 rounded-lg blur-3xl opacity-30 scale-110"></div>
+                <div className="relative bg-white/5 backdrop-blur-sm rounded-lg p-3 sm:p-4 border border-white/20 flag-wave">
                   <img 
-                    src="/lovable-uploads/8fd480b8-d53e-4aec-b9be-32ca7e4d0355.png" 
-                    alt="Ranger AI Avatar" 
-                    className="relative h-48 w-48 sm:h-64 sm:w-64 lg:h-80 lg:w-80 rounded-full shadow-2xl"
+                    src="/placeholder/tattered-flag.svg" 
+                    alt="Tattered American Flag" 
+                    className="relative h-48 w-72 sm:h-64 sm:w-96 lg:h-80 lg:w-120 shadow-2xl rounded-lg"
                   />
                 </div>
               </div>
