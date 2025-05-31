@@ -320,9 +320,9 @@ const Index = () => {
             <div>
               <h4 className="text-xl font-bold mb-6 text-white">Emergency Resources</h4>
               <div className="space-y-5 text-gray-400 text-lg">
-                <p className="hover:text-white transition-colors">Veterans Crisis Line: 1-800-273-8255</p>
-                <p className="hover:text-white transition-colors">Crisis Text Line: Text 838255</p>
-                <p className="hover:text-white transition-colors">Emergency: 911</p>
+                <p className="hover:text-white transition-colors">Veterans Crisis Line: Dial 9-8-8</p>
+                <p className="hover:text-white transition-colors">Crisis Text Line: Text 9-8-8</p>
+                <p className="hover:text-white transition-colors">Emergency: 9-1-1</p>
               </div>
             </div>
           </div>
