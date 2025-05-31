@@ -327,7 +327,7 @@ const Index = () => {
             </div>
           </div>
           <div className="border-t border-slate-800 mt-12 pt-8 text-center text-gray-400">
-            <p className="text-lg">&copy; 2024 Health Pro Assist. Serving those who served.</p>
+            <p className="text-lg">&copy; 2025 Health Pro Assist. Serving those who served.</p>
           </div>
         </div>
       </footer>
