@@ -1,0 +1,172 @@
+
+<svg width="400" height="240" viewBox="0 0 400 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Flag wave animation -->
+    <path id="wave" d="M0,0 Q50,20 100,0 T200,0 T300,0 T400,0" />
+    
+    <!-- Tattered edges -->
+    <clipPath id="tatteredEdge">
+      <path d="M0,0 L380,0 L385,10 L395,5 L400,15 L390,25 L400,35 L385,45 L395,55 L380,65 L390,75 L385,85 L400,95 L390,105 L395,115 L385,125 L400,135 L385,145 L390,155 L380,165 L395,175 L385,185 L400,195 L390,205 L385,215 L395,225 L400,240 L0,240 Z"/>
+    </clipPath>
+  </defs>
+  
+  <!-- Flag background -->
+  <g clip-path="url(#tatteredEdge)">
+    <!-- Red stripes -->
+    <rect x="0" y="0" width="400" height="18.46" fill="#B22234"/>
+    <rect x="0" y="36.92" width="400" height="18.46" fill="#B22234"/>
+    <rect x="0" y="73.84" width="400" height="18.46" fill="#B22234"/>
+    <rect x="0" y="110.76" width="400" height="18.46" fill="#B22234"/>
+    <rect x="0" y="147.68" width="400" height="18.46" fill="#B22234"/>
+    <rect x="0" y="184.6" width="400" height="18.46" fill="#B22234"/>
+    <rect x="0" y="221.52" width="400" height="18.46" fill="#B22234"/>
+    
+    <!-- White stripes -->
+    <rect x="0" y="18.46" width="400" height="18.46" fill="#FFFFFF"/>
+    <rect x="0" y="55.38" width="400" height="18.46" fill="#FFFFFF"/>
+    <rect x="0" y="92.3" width="400" height="18.46" fill="#FFFFFF"/>
+    <rect x="0" y="129.22" width="400" height="18.46" fill="#FFFFFF"/>
+    <rect x="0" y="166.14" width="400" height="18.46" fill="#FFFFFF"/>
+    <rect x="0" y="203.06" width="400" height="18.46" fill="#FFFFFF"/>
+    
+    <!-- Blue canton -->
+    <rect x="0" y="0" width="160" height="129.22" fill="#3C3B6E"/>
+    
+    <!-- Stars (simplified pattern) -->
+    <g fill="#FFFFFF">
+      <!-- Row 1 -->
+      <circle cx="16" cy="9" r="3"/>
+      <circle cx="32" cy="9" r="3"/>
+      <circle cx="48" cy="9" r="3"/>
+      <circle cx="64" cy="9" r="3"/>
+      <circle cx="80" cy="9" r="3"/>
+      <circle cx="96" cy="9" r="3"/>
+      <circle cx="112" cy="9" r="3"/>
+      <circle cx="128" cy="9" r="3"/>
+      <circle cx="144" cy="9" r="3"/>
+      
+      <!-- Row 2 -->
+      <circle cx="24" cy="18" r="3"/>
+      <circle cx="40" cy="18" r="3"/>
+      <circle cx="56" cy="18" r="3"/>
+      <circle cx="72" cy="18" r="3"/>
+      <circle cx="88" cy="18" r="3"/>
+      <circle cx="104" cy="18" r="3"/>
+      <circle cx="120" cy="18" r="3"/>
+      <circle cx="136" cy="18" r="3"/>
+      
+      <!-- Continue pattern for remaining rows -->
+      <circle cx="16" cy="27" r="3"/>
+      <circle cx="32" cy="27" r="3"/>
+      <circle cx="48" cy="27" r="3"/>
+      <circle cx="64" cy="27" r="3"/>
+      <circle cx="80" cy="27" r="3"/>
+      <circle cx="96" cy="27" r="3"/>
+      <circle cx="112" cy="27" r="3"/>
+      <circle cx="128" cy="27" r="3"/>
+      <circle cx="144" cy="27" r="3"/>
+      
+      <circle cx="24" cy="36" r="3"/>
+      <circle cx="40" cy="36" r="3"/>
+      <circle cx="56" cy="36" r="3"/>
+      <circle cx="72" cy="36" r="3"/>
+      <circle cx="88" cy="36" r="3"/>
+      <circle cx="104" cy="36" r="3"/>
+      <circle cx="120" cy="36" r="3"/>
+      <circle cx="136" cy="36" r="3"/>
+      
+      <circle cx="16" cy="45" r="3"/>
+      <circle cx="32" cy="45" r="3"/>
+      <circle cx="48" cy="45" r="3"/>
+      <circle cx="64" cy="45" r="3"/>
+      <circle cx="80" cy="45" r="3"/>
+      <circle cx="96" cy="45" r="3"/>
+      <circle cx="112" cy="45" r="3"/>
+      <circle cx="128" cy="45" r="3"/>
+      <circle cx="144" cy="45" r="3"/>
+      
+      <circle cx="24" cy="54" r="3"/>
+      <circle cx="40" cy="54" r="3"/>
+      <circle cx="56" cy="54" r="3"/>
+      <circle cx="72" cy="54" r="3"/>
+      <circle cx="88" cy="54" r="3"/>
+      <circle cx="104" cy="54" r="3"/>
+      <circle cx="120" cy="54" r="3"/>
+      <circle cx="136" cy="54" r="3"/>
+      
+      <circle cx="16" cy="63" r="3"/>
+      <circle cx="32" cy="63" r="3"/>
+      <circle cx="48" cy="63" r="3"/>
+      <circle cx="64" cy="63" r="3"/>
+      <circle cx="80" cy="63" r="3"/>
+      <circle cx="96" cy="63" r="3"/>
+      <circle cx="112" cy="63" r="3"/>
+      <circle cx="128" cy="63" r="3"/>
+      <circle cx="144" cy="63" r="3"/>
+      
+      <circle cx="24" cy="72" r="3"/>
+      <circle cx="40" cy="72" r="3"/>
+      <circle cx="56" cy="72" r="3"/>
+      <circle cx="72" cy="72" r="3"/>
+      <circle cx="88" cy="72" r="3"/>
+      <circle cx="104" cy="72" r="3"/>
+      <circle cx="120" cy="72" r="3"/>
+      <circle cx="136" cy="72" r="3"/>
+      
+      <circle cx="16" cy="81" r="3"/>
+      <circle cx="32" cy="81" r="3"/>
+      <circle cx="48" cy="81" r="3"/>
+      <circle cx="64" cy="81" r="3"/>
+      <circle cx="80" cy="81" r="3"/>
+      <circle cx="96" cy="81" r="3"/>
+      <circle cx="112" cy="81" r="3"/>
+      <circle cx="128" cy="81" r="3"/>
+      <circle cx="144" cy="81" r="3"/>
+      
+      <circle cx="24" cy="90" r="3"/>
+      <circle cx="40" cy="90" r="3"/>
+      <circle cx="56" cy="90" r="3"/>
+      <circle cx="72" cy="90" r="3"/>
+      <circle cx="88" cy="90" r="3"/>
+      <circle cx="104" cy="90" r="3"/>
+      <circle cx="120" cy="90" r="3"/>
+      <circle cx="136" cy="90" r="3"/>
+      
+      <circle cx="16" cy="99" r="3"/>
+      <circle cx="32" cy="99" r="3"/>
+      <circle cx="48" cy="99" r="3"/>
+      <circle cx="64" cy="99" r="3"/>
+      <circle cx="80" cy="99" r="3"/>
+      <circle cx="96" cy="99" r="3"/>
+      <circle cx="112" cy="99" r="3"/>
+      <circle cx="128" cy="99" r="3"/>
+      <circle cx="144" cy="99" r="3"/>
+      
+      <circle cx="24" cy="108" r="3"/>
+      <circle cx="40" cy="108" r="3"/>
+      <circle cx="56" cy="108" r="3"/>
+      <circle cx="72" cy="108" r="3"/>
+      <circle cx="88" cy="108" r="3"/>
+      <circle cx="104" cy="108" r="3"/>
+      <circle cx="120" cy="108" r="3"/>
+      <circle cx="136" cy="108" r="3"/>
+      
+      <circle cx="16" cy="117" r="3"/>
+      <circle cx="32" cy="117" r="3"/>
+      <circle cx="48" cy="117" r="3"/>
+      <circle cx="64" cy="117" r="3"/>
+      <circle cx="80" cy="117" r="3"/>
+      <circle cx="96" cy="117" r="3"/>
+      <circle cx="112" cy="117" r="3"/>
+      <circle cx="128" cy="117" r="3"/>
+      <circle cx="144" cy="117" r="3"/>
+    </g>
+  </g>
+  
+  <!-- Tattered holes and wear -->
+  <g fill="rgba(0,0,0,0.1)">
+    <ellipse cx="300" cy="80" rx="8" ry="12" opacity="0.3"/>
+    <ellipse cx="250" cy="140" rx="6" ry="8" opacity="0.3"/>
+    <ellipse cx="350" cy="180" rx="5" ry="7" opacity="0.3"/>
+  </g>
+</svg>
