@@ -311,7 +311,7 @@ const Index = () => {
               <img 
                 src="/lovable-uploads/5b9fefa0-3dca-45a4-b0cc-0fa1d596bb6d.png" 
                 alt="Health Pro Assist" 
-                className="h-10 w-auto mb-6 filter brightness-0 invert"
+                className="h-10 w-auto"
               />
               <p className="text-gray-400 text-lg leading-relaxed mb-6">
                 Providing AI-powered support and advocacy for veterans and their families.
