@@ -68,7 +68,7 @@ const Index = () => {
               </div>
               <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 text-lg font-bold rounded-xl shadow-xl hover:shadow-red-500/25 transition-all duration-300 group">
                 <MessageCircle className="mr-3 h-6 w-6 group-hover:scale-110 transition-transform" />
-                Talk to Ranger
+                Ranger is Ready for Your SitRep! Bottom Right Corner!
                 <ChevronRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </Button>
             </div>
