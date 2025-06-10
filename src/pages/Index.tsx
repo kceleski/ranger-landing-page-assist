@@ -1,3 +1,4 @@
+
 import { Shield, Users, Heart, Phone, MessageCircle, CheckCircle, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -25,10 +26,13 @@ const Index = () => {
                 className="h-8 sm:h-10 w-auto"
               />
             </div>
-            <Button className="bg-red-600 hover:bg-red-700 text-white px-3 sm:px-6 py-2 rounded-lg font-semibold text-xs sm:text-sm">
-              <span className="hidden sm:inline">healthproassist.com</span>
-              <span className="sm:hidden">Chat with Ranger!</span>
-            </Button>
+            <div className="flex items-center space-x-4">
+              <img 
+                src="/placeholder/tattered-flag.svg" 
+                alt="American Flag" 
+                className="h-8 sm:h-10 w-auto"
+              />
+            </div>
           </div>
         </div>
       </header>
@@ -57,7 +61,7 @@ const Index = () => {
           }}
         />
         
-        <div className="relative z-10 max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 pt-16 sm:pt-20 pb-8">
+        <div className="relative z-10 max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 pt-20 sm:pt-24 pb-8">
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
             {/* Left Content */}
             <div className="text-white space-y-6 sm:space-y-8 text-center lg:text-left">
@@ -86,17 +90,17 @@ const Index = () => {
               </Button>
             </div>
 
-            {/* Right Content - Tattered Flag */}
+            {/* Right Content - New Ranger Avatar */}
             <div className="flex justify-center lg:justify-end mt-8 lg:mt-0">
               <div 
                 className="relative"
                 style={{ transform: `translateY(${scrollY * -0.1}px)` }}
               >
                 <div className="absolute inset-0 bg-gradient-to-r from-red-400 via-blue-400 to-red-400 rounded-lg blur-3xl opacity-30 scale-110"></div>
-                <div className="relative bg-white/5 backdrop-blur-sm rounded-lg p-3 sm:p-4 border border-white/20 flag-wave">
+                <div className="relative bg-white/5 backdrop-blur-sm rounded-lg p-3 sm:p-4 border border-white/20">
                   <img 
-                    src="/placeholder/tattered-flag.svg" 
-                    alt="Tattered American Flag" 
+                    src="/lovable-uploads/06d157f9-5e43-41c6-8692-d4439634b04a.png" 
+                    alt="Ranger AI Avatar" 
                     className="relative h-48 w-72 sm:h-64 sm:w-96 lg:h-80 lg:w-120 shadow-2xl rounded-lg"
                   />
                 </div>
