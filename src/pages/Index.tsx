@@ -1,6 +1,8 @@
+
 import { Shield, Users, Heart, Phone, MessageCircle, CheckCircle, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { AspectRatio } from "@/components/ui/aspect-ratio";
 import { useEffect, useState } from "react";
 
 const Index = () => {
@@ -99,12 +101,14 @@ const Index = () => {
                 <Card className="relative bg-blue-600 shadow-2xl border-0">
                   <CardContent className="p-3 sm:p-4">
                     <Card className="bg-white shadow-inner">
-                      <CardContent className="p-3 sm:p-4">
-                        <img 
-                          src="/lovable-uploads/06d157f9-5e43-41c6-8692-d4439634b04a.png" 
-                          alt="Ranger AI Avatar" 
-                          className="h-48 w-72 sm:h-64 sm:w-96 lg:h-80 lg:w-120 rounded-lg object-cover"
-                        />
+                      <CardContent className="p-4">
+                        <AspectRatio ratio={4/3} className="bg-white rounded-lg overflow-hidden">
+                          <img 
+                            src="/lovable-uploads/06d157f9-5e43-41c6-8692-d4439634b04a.png" 
+                            alt="Ranger AI Avatar" 
+                            className="w-full h-full object-contain"
+                          />
+                        </AspectRatio>
                       </CardContent>
                     </Card>
                   </CardContent>
