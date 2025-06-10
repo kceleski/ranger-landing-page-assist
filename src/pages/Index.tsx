@@ -102,13 +102,13 @@ const Index = () => {
                   <CardContent className="p-3 sm:p-4">
                     <Card className="bg-white shadow-inner">
                       <CardContent className="p-4">
-                        <AspectRatio ratio={4/3} className="bg-white rounded-lg overflow-hidden">
+                        <div className="w-80 h-60 sm:w-96 sm:h-72 lg:w-[400px] lg:h-[300px] bg-white rounded-lg overflow-hidden">
                           <img 
                             src="/lovable-uploads/06d157f9-5e43-41c6-8692-d4439634b04a.png" 
                             alt="Ranger AI Avatar" 
                             className="w-full h-full object-contain"
                           />
-                        </AspectRatio>
+                        </div>
                       </CardContent>
                     </Card>
                   </CardContent>
