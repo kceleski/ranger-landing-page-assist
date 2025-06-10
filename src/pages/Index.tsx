@@ -90,20 +90,22 @@ const Index = () => {
               </Button>
             </div>
 
-            {/* Right Content - New Ranger Avatar */}
+            {/* Right Content - Ranger Avatar with White Card Background */}
             <div className="flex justify-center lg:justify-end mt-8 lg:mt-0">
               <div 
                 className="relative"
                 style={{ transform: `translateY(${scrollY * -0.1}px)` }}
               >
                 <div className="absolute inset-0 bg-gradient-to-r from-red-400 via-blue-400 to-red-400 rounded-lg blur-3xl opacity-30 scale-110"></div>
-                <div className="relative bg-white/5 backdrop-blur-sm rounded-lg p-3 sm:p-4 border border-white/20">
-                  <img 
-                    src="/lovable-uploads/06d157f9-5e43-41c6-8692-d4439634b04a.png" 
-                    alt="Ranger AI Avatar" 
-                    className="relative h-48 w-72 sm:h-64 sm:w-96 lg:h-80 lg:w-120 shadow-2xl rounded-lg"
-                  />
-                </div>
+                <Card className="relative bg-white shadow-2xl border-0">
+                  <CardContent className="p-3 sm:p-4">
+                    <img 
+                      src="/lovable-uploads/8fd480b8-d53e-4aec-b9be-32ca7e4d0355.png" 
+                      alt="Ranger AI Avatar" 
+                      className="h-48 w-72 sm:h-64 sm:w-96 lg:h-80 lg:w-120 rounded-lg object-cover"
+                    />
+                  </CardContent>
+                </Card>
               </div>
             </div>
           </div>
